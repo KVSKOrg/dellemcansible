@@ -48,7 +48,7 @@ body:
     id: COLLECTION 
     attributes:
       label: COLLECTION Version
-      description: Paste verbatim output from "ansible-galaxy collection list <namespace>.<collection>"  between the quotes.For example: ansible-galaxy collection list community.general.
+      description: Paste verbatim output from ansible-galaxy collection list <namespace>.<collection>. For example: ansible-galaxy collection list community.general
       placeholder: |
     validations:
       required: true
