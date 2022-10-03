@@ -45,9 +45,9 @@ body:
     validations:
       required: true
   - type: input
-    id: COLLECTION 
+    id: Collection 
     attributes:
-      label: COLLECTION Version
+      label: Collection Version
       description: Paste verbatim output from ansible-galaxy collection list <namespace>.<collection>. For example, ansible-galaxy collection list community.general
       placeholder: |
         community.general
