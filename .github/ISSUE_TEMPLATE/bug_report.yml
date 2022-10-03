@@ -12,7 +12,7 @@ body:
         Also test if the latest release and devel branch are affected too
         Complete *all* sections as described, this form is processed automatically
   - type: textarea
-    id: bug-description
+    id: bug description
     attributes:
       label: Bug Description
       description: Provide a clear and concise description about the bug.
@@ -63,7 +63,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: OS / ENVIRONMENT
+    id: OS 
     attributes:
       label: Operating System
       description: Provide all relevant information, e.g. target OS versions, network device firmware, etc. 
