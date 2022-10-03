@@ -8,6 +8,9 @@ body:
     attributes:
       value: |
         Thank you for taking the time to create this bug report. To better help us investigate this bug, provide the following information.
+	Verify first that your issue is not already reported on GitHub
+	Also test if the latest release and devel branch are affected too
+	Complete *all* sections as described, this form is processed automatically
   - type: textarea
     id: bug-description
     attributes:
@@ -16,10 +19,19 @@ body:
     validations:
       required: true
   - type: input
+    id: Issue Type
+    attributes:
+      label: Issue Type
+      description: Issue Type.
+      placeholder: |
+        Bug Report
+    validations:
+      required: true
+  - type: input
     id: component
     attributes:
       label: Component or Module Name
-      description: Enter the Component or Module Name.
+      description: Write the short name of the module, plugin, task or feature below, use your best guess if unsure
       placeholder: idrac_server_config_profile
     validations:
       required: true
@@ -33,41 +45,27 @@ body:
     validations:
       required: true
   - type: input
-    id: python
+    id: COLLECTION 
     attributes:
-      label: Python Version
-      description: Enter the Python version.
+      label: COLLECTION Version
+      description: Paste verbatim output from "ansible-galaxy collection list <namespace>.<collection>"  between the quotes.For example: ansible-galaxy collection list community.general.
       placeholder: |
-        Python 3.9
     validations:
       required: true
   - type: textarea
     id: device
     attributes:
-      label: iDRAC/OME/OME-M version
-      description: Enter the iDRAC/OME/OME-M version in which the bug is observed.
+      label: CONFIGURATION
+      description: Paste verbatim output from "ansible-config dump --only-changed"
       placeholder: |
-        iDRAC 5.10.00.00
-        OME 3.8.4
-        OME-M 1.40
     validations:
       required: true
   - type: textarea
-    id: os
+    id: OS / ENVIRONMENT
     attributes:
       label: Operating System
-      description: Enter the operating system and version in which the bug is observed.
+      description: Provide all relevant information, e.g. target OS versions, network device firmware, etc. 
       placeholder: |
-        Red Hat Enterprise Linux (RHEL) 8.5 and 8.4
-        SUSE Linux Enterprise Server (SLES) 15 SP2 and 15 SP1
-        Ubuntu 20.04.2 and 20.04.1
-    validations:
-      required: true
-  - type: textarea
-    id: playbook
-    attributes:
-      label: Playbook Used
-      description: Enter the playbook used to run the module or component.
     validations:
       required: true
   - type: textarea
@@ -79,10 +77,10 @@ body:
     validations:
       required: true    
   - type: textarea
-    id: steps
+    id: STEPS TO REPRODUCE
     attributes:
       label: Steps to Reproduce
-      description: Provide the steps to reproduce this bug.
+      description: Describe exactly how to reproduce the problem, using a minimal test-case
     validations:
       required: true
   - type: textarea
