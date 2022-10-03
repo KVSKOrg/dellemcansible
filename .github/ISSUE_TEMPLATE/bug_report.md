@@ -11,7 +11,7 @@ assignees:
 <!--- Also test if the latest release and devel branch are affected too -->
 <!--- Complete *all* sections as described, this form is processed automatically -->
 
-##### SUMMARY - ABCD
+##### SUMMARY 
 <!--- Explain the problem briefly below -->
 
 ##### ISSUE TYPE
