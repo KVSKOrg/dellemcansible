@@ -1,67 +1,58 @@
 ---
-name: Bug report - 
-about: Create a report to help us improve
-title: 
-labels: 
-assignees: 
-
+name: 🐛 Bug report
+about: Create an issue to help us improve.
 ---
 
-<!--- Verify first that your issue is not already reported on GitHub -->
-<!--- Also test if the latest release and devel branch are affected too -->
-<!--- Complete *all* sections as described, this form is processed automatically -->
+##### Summary
+<!--- Write a brief summary of the issue, including rationale and design decisions. -->
 
-##### SUMMARY 
-<!--- Explain the problem briefly below -->
 
-##### ISSUE TYPE
-- Bug Report
+##### Component Name
+<!--- Write the short name of the module, plugin, task, or feature. -->
 
-##### COMPONENT NAME
-<!--- Write the short name of the module, plugin, task or feature below, use your best guess if unsure -->
+<!--- HINT: ome_firmware, idrac_bios -->
 
-##### ANSIBLE VERSION
-<!--- Paste verbatim output from "ansible --version" between quotes -->
+
+##### Ansible Version
+<!--- Paste verbatim command output below. -->
 ```paste below
 
 ```
 
-##### COLLECTION VERSION
-<!--- Paste verbatim output from "ansible-galaxy collection list <namespace>.<collection>"  between the quotes
-for example: ansible-galaxy collection list community.general
--->
+
+##### iDRAC or OpenManage Enterprise version
+<!--- Describe the version details of the iDRAC, OpenManage Enterprise 
+or OpenManage Enterprise Modular. -->
+<!--- HINT: PowerEdge R640, 
+      iDRAC version 3.30.30.00
+      OME version 3.5.0, MX740c
+      OME-M version 1.20.10 -->
+
+
+##### Steps to Reproduce
+<!--- Provide exact steps on how to reproduce the issue, using a minimal test case. -->
+
+
+##### Playbook used
+<!--- Paste the playbook used below. Remove the sensitive information from the playbook. -->
 ```paste below
 
 ```
 
-##### CONFIGURATION
-<!--- Paste verbatim output from "ansible-config dump --only-changed" between quotes -->
-```paste below
 
-```
-
-##### OS / ENVIRONMENT
-<!--- Provide all relevant information below, e.g. target OS versions, network device firmware, etc. -->
+##### Expected Results
+<!--- Describe the expected behavior after running the steps. -->
 
 
-##### STEPS TO REPRODUCE
-<!--- Describe exactly how to reproduce the problem, using a minimal test-case -->
-
-<!--- Paste example playbooks or commands between quotes below -->
-```yaml
-
-```
-
-<!--- HINT: You can paste gist.github.com links for larger files -->
-
-##### EXPECTED RESULTS
-<!--- Describe what you expected to happen when running the steps above -->
+##### Actual Results
+<!--- Describe the actual or unexpected outcome. If possible, run with extra 
+verbosity (`-vvvv`). -->
 
 
-##### ACTUAL RESULTS
-<!--- Describe what actually happened. If possible run with extra verbosity (-vvvv) -->
+#### Community Note
 
-<!--- Paste verbatim command output between quotes -->
-```paste below
-
-```
+* Please vote on this issue by adding a 👍 [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) 
+  to the original issue to help the community and maintainers prioritize this request
+* Please do not leave "+1" or other comments that do not add relevant new information or questions, 
+  they generate extra noise for issue followers and do not help prioritize the request
+* If you are interested in working on this issue or have submitted a pull request, please leave a comment
