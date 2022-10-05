@@ -5,6 +5,7 @@ title: "[BUG]: "
 labels: ["type/bug", "needs-triage"]
 body:
   - type: markdown
+    id: Bug
     attributes:
       value: |
         Thank you for taking the time to create this bug report. To better help us investigate this bug, provide the following information.
