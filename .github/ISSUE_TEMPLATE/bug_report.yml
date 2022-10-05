@@ -19,12 +19,12 @@ body:
     validations:
       required: true
   - type: input
-    id: Issue 
+    id: Product 
     attributes:
-      label: Issue Type
-      description: Issue Type.
+      label: Product Name
+      description: Product Name
       placeholder: |
-        Bug Report
+        enterprise sonic,SFSS, SFS, etc.
     validations:
       required: true
   - type: input
@@ -32,25 +32,25 @@ body:
     attributes:
       label: Component or Module Name
       description: Write the short name of the module, plugin, task or feature below, use your best guess if unsure
-      placeholder: idrac_server_config_profile
+      placeholder: sonic_bgp, sonic_ntp, sonic_interfaces, etc.
     validations:
       required: true
   - type: input
     id: ansible
     attributes:
-      label: Ansible Version
+      label: Ansible Collection Version
       description: Enter the Ansible version.
       placeholder: |
         Ansible 2.12
     validations:
       required: true
   - type: input
-    id: Collection 
+    id: Product 
     attributes:
-      label: Collection Version
-      description: Paste verbatim output from ansible-galaxy collection list <namespace>.<collection>. For example, ansible-galaxy collection list community.general
+      label: Product Version
+      description: Enter the Product version. 
       placeholder: |
-        community.general
+        product verion details
     validations:
       required: true
   - type: textarea
@@ -62,23 +62,6 @@ body:
         ansible-config dump --only-changed
     validations:
       required: true
-  - type: textarea
-    id: OS 
-    attributes:
-      label: Operating System
-      description: Provide all relevant information, e.g. target OS versions, network device firmware, etc. 
-      placeholder: |
-        OS versions, network device firmware, etc.
-    validations:
-      required: true
-  - type: textarea
-    id: files
-    attributes:
-      label: Logs
-      description: Copy any relevant log output here or drop the log files in the text area.
-        Please be sure to remove all sensitive data such as IP addresses, host names, credentials, etc.
-    validations:
-      required: true    
   - type: textarea
     id: STEPS 
     attributes:
@@ -100,6 +83,14 @@ body:
       description: Enter the clear and concise description about the actual behaviour.
     validations:
       required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Logs
+      description: Copy any relevant log output here or drop the log files in the text area.
+        Please be sure to remove all sensitive data such as IP addresses, host names, credentials, etc.
+    validations:
+      required: true 
   - type: textarea
     id: screenshots
     attributes:
