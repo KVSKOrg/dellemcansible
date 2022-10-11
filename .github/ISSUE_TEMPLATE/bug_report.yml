@@ -50,7 +50,7 @@ body:
       label: Product Version
       description: Enter the Product version. 
       placeholder: |
-        product verion details
+        eSONiC product verion
     validations:
       required: true
   - type: textarea
