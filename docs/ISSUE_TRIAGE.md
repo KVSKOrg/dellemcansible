@@ -113,7 +113,6 @@ If it's not perfectly clear that it's an actual bug, quickly try to reproduce it
 2. Otherwise, move on to [prioritizing the issue](#4-prioritization-of-issues).  Assign the appropriate priority label to the issue, add the appropriate comments to the issue, and remove the `needs-triage` label.
 
 ## 4. Prioritization of issues
-[ANUPAM TO REVIEW THIS AND PROVIDE NECESSARY INPUT]
 In general bugs and feature request issues should be labeled with a priority.
 
 This is the most difficult thing with triaging issues since it requires a lot of knowledge, context and experience before being able to think of and start feel comfortable adding a certain priority label.
@@ -193,4 +192,4 @@ This workflow starts off with a GitHub issue of type bug being created.
 1. Collaborator or maintainer creates a GitHub bug using the appropriate GitHub issue template
 2. By default a bug will be created with the `type/bug` and `needs-triage` labels
 
-NEW FLOW CHART TO BE CREATED AND REVIEWED WITH ANUPAM.
+
