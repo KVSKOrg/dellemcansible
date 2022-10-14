@@ -15,7 +15,7 @@ Become one of the contributors to this project! We thrive to build a welcoming a
 ## Table of Contents
 
 * [Become a contributor](#Become-a-contributor)
-* [Contributor agreement] (#Contributor Agreement)
+* [Contributor agreement](#Contributor Agreement)
 * [Submitting issues](#Submitting-issues)
 * [Triage issues](#Triage-issues)
 * [Your first contribution](#Your-first-contribution)
@@ -114,10 +114,10 @@ Unsure where to begin contributing? Start by browsing issues labeled `beginner f
 * [Help wanted](https://github.com/dell/<<repo>>/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) issues are problems we would like the community to help us with regardless of complexity.
 
 When you're ready to contribute, it's time to create a pull request.
-ANUPAM TO REVIEW AND CONFIRM THE ABOVE SECTION.
+
 ## Branching
 
-* [Branching Strategy](BRANCHING.md)
+* [Branching Strategy](BRANCHING.md) 
 
 ## Signing your commits
 
