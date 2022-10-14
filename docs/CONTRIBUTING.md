@@ -99,7 +99,7 @@ If you don't have the knowledge or time to code, consider helping with _issue tr
 Read more about the ways you can [Triage issues](ISSUE_TRIAGE.md).
 
 ## Testing
-<Details of how to test>
+
 See [here](https://github.com/dell/<repo name>/tree/collections/ /README.md) for further information on testing.
 
 ## Debugging
