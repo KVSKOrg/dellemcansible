@@ -15,7 +15,7 @@ Become one of the contributors to this project! We thrive to build a welcoming a
 ## Table of Contents
 
 * [Become a contributor](#Become-a-contributor)
-* [Contributor agreement](#Contributor Agreement)
+* [Contributor agreement](#Contributor-Agreement)
 * [Submitting issues](#Submitting-issues)
 * [Triage issues](#Triage-issues)
 * [Your first contribution](#Your-first-contribution)
