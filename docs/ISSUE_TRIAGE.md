@@ -41,8 +41,13 @@ The following section describes the various issue templates and the expected con
 
 Should explain what happened, what was expected and how to reproduce it together with any additional information that may help giving a complete picture of what happened such as screenshots, output and any environment related information that's applicable and/or maybe related to the reported problem:
 
- - OS/Version: [e.g. RHEL 7.6]
- - Python Version [e.g. 3.2]
+ - Product Name/Version
+ - Component/Module Name
+ - Ansible Collection Version	
+ - Configuration
+ - Steps to Reproduce
+ - Expected/Actual Behavior
+ - Logs/Screenshots
  - Any other additional information...
 
 #### Feature requests
