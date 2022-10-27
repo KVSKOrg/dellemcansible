@@ -9,7 +9,7 @@ about: Create an issue to help us improve.
 
 ##### Product Name
 <!--- Write the short name of the Product. -->
-<!--- HINT: enterprise sonic,SFSS, SFS, etc. -->
+<!--- HINT: Dell Enterprise SONiC / SONiC-OS etc -->
 
 ##### Component Name
 <!--- Write the short name of the module, plugin, task, or feature. -->
@@ -22,7 +22,7 @@ about: Create an issue to help us improve.
 ```
 ##### SONiC Software Version
 <!--- Enter the Product version. -->
-<!--- HINT: eSONiC Software Version -->
+<!--- HINT: first line of "show version" output -->
 
 ##### Configuration
 <!--- Paste verbatim output from ansible-config dump "--only-changed" -->
