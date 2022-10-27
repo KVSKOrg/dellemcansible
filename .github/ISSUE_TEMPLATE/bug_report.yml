@@ -32,32 +32,32 @@ body:
     attributes:
       label: Component or Module Name
       description: Write the short name of the module, plugin, task or feature below, use your best guess if unsure
-      placeholder: sonic_bgp, sonic_ntp, sonic_interfaces, etc.
+      placeholder: httpapi, cliconf, sonic_bgp, etc.
     validations:
       required: true
   - type: input
     id: ansible
     attributes:
       label: Ansible Collection Version
-      description: Enter the Ansible Collection version.
+      description: output from "ansible-galaxy collection list "
       placeholder: |
-        Ansible 2.12
+        dellemc.enterprise_sonic 2.0.0
     validations:
       required: true
   - type: input
     id: Productv 
     attributes:
-      label: Product Version
+      label: SONiC Software Version
       description: Enter the Product version. 
       placeholder: |
-        product verion details
+        SONiC Software Version
     validations:
       required: true
   - type: textarea
     id: device
     attributes:
       label: Configuration
-      description: Paste verbatim output from ansible-config dump --only-changed
+      description: Paste verbatim output from ansible-config dump "--only-changed"
       placeholder: |
         ansible-config dump --only-changed
     validations:
