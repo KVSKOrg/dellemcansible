@@ -39,7 +39,7 @@ body:
     id: ansible
     attributes:
       label: DellEMC Enterprise SONiC Ansible Collection Version
-      description: Update the output from "ansible-galaxy collection list dellemc.enterprise_sonic"
+      description: Provide the output from "ansible-galaxy collection list dellemc.enterprise_sonic"
       placeholder: |
         dellemc.enterprise_sonic 2.0.0
     validations:
@@ -48,7 +48,7 @@ body:
     id: Productv 
     attributes:
       label: SONiC Software Version
-      description: Enter the Product version. 
+      description: Provide the first line of "show version" output. 
       placeholder: |
         SONiC Software Version
     validations:
