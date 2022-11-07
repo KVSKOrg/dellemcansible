@@ -20,7 +20,7 @@ If these privileges are abused in any way and the quality of the project is comp
 
 ### Don't
 
-* Introduce Ansible sanity regression failures.
+* Introduce Ansible sanity failures.
 * Introduce enterprise_sonic regression test failures.
 * Commit directly.
 * Compromise backward compatibility.

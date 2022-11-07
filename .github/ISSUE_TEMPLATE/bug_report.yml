@@ -38,8 +38,8 @@ body:
   - type: input
     id: ansible
     attributes:
-      label: Ansible Collection Version
-      description: output from "ansible-galaxy collection list dellemc.enterprise_sonic"
+      label: DellEMC Enterprise SONiC Ansible Collection Version
+      description: Update the output from "ansible-galaxy collection list dellemc.enterprise_sonic"
       placeholder: |
         dellemc.enterprise_sonic 2.0.0
     validations:
