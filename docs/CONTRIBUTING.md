@@ -187,3 +187,11 @@ A pull request must satisfy following for it to be merged:
 * A pull request will require at least 2 maintainer approvals.
 * Maintainers must perform a review to ensure the changes adhere to guidelines laid out in this document.
 * If any commits are made after the PR has been approved, the PR approval will automatically be removed and the above process must happen again.
+
+## Code Style
+
+For the Python code in the repository, we expect the code styling outlined in [Ansible python guide]( https://docs.ansible.com/ansible/latest/dev_guide/developing_python_3.html). In addition to this, we have the following supplements:
+
+### Handle Errors
+TBD
+
