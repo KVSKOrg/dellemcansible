@@ -32,7 +32,7 @@ You can contribute to this project in several ways. Here are some examples:
 * Contribute to the project documentation and codebase.
 * Report and triage bugs.
 * Feature requests
-* Write technical documentation and blog posts, for users and contributors.
+* Write technical documentation and blog posts for users and contributors.
 * Help others by answering questions about this project.
 
 ## Contributor Agreement
@@ -83,7 +83,7 @@ If you have an idea of how to improve this project, submit a [feature request](h
 
 If you have a question and you can't find the answer in the documentation or issues, the next step is to submit a [question.](https://github.com/dell/<<repo>>/issues/new?labels=type%2Fquestion&template=ask-a-question.md&title=%5BQUESTION%5D%3A)
 
-We'd love your help answering questions being asked by other CSM users.
+We'd love your help in answering pending questions asked by other CSM users.
 
 ## Triage issues
 
@@ -91,7 +91,7 @@ Triage helps ensure that issues resolve quickly by:
 
 * Ensuring the issue's intent and purpose is conveyed precisely. This is necessary because it can be difficult for an issue to explain how an end user experiences a problem and what actions they took.
 * Giving a contributor the information they need before they commit to resolving an issue.
-authors* Lowering the issue count by preventing duplicate issues.
+* Lowering the issue count by preventing duplicate issues.
 * Streamlining the development process by preventing duplicate discussions.
 
 If you don't have the knowledge or time to code, consider helping with _issue triage_. The Dell dellemc.enterprise_sonic community will thank you for saving them time by spending some of yours.
@@ -164,7 +164,7 @@ If the pull request fixes a bug:
 * The pull request description must include `Fixes #<issue number>`.
 * To avoid regressions, the pull request should include tests that replicate the fixed bug.
 
-The owning team _squashes_ all commits into one when we accept a pull request. The title of the pull request becomes the subject line of the squashed commit message. We still encourage contributors to write informative commit messages, as they becomes a part of the Git commit body.
+The owning team _squashes_ all commits into one when we accept a pull request. The title of the pull request becomes the subject line of the squashed commit message. We still encourage contributors to write informative commit messages, as they become a part of the Git commit body.
 
 We use the pull request title when we generate change logs for releases. As such, we strive to make the title as informative as possible.
 
@@ -172,7 +172,7 @@ Make sure that the title for your pull request uses the same format as the subje
 
 ### Quality Gates for pull requests
 
-GitHub Actions are used to enforce quality gates when a pull request is created or when any commit is made to the pull request. These GitHub Actions enforce our minimum code quality requirement for any code that get checked into the code repository. If any of the quality gates fail, it is expected that the contributor will look into the check log, understand the problem and resolve the issue. If help is needed, please feel free to reach out the maintainers of the project for [support](SUPPORT.md).
+GitHub Actions are used to enforce quality gates when a pull request is created or when any commit is made to the pull request. These GitHub Actions enforce our minimum code quality requirement for any code that gets checked into the code repository. If any of the quality gates fail, it is expected that the contributor will look into the check log, understand the problem and resolve the issue. If help is needed, please feel free to reach out to the maintainers of the project for [support](SUPPORT.md).
 
 #### Code build/test/coverage
 
@@ -182,7 +182,7 @@ GitHub Actions are used to enforce quality gates when a pull request is created 
 
 All submissions, including submissions by project members, require review. We use GitHub pull requests for this purpose. Consult [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more information on using pull requests.
 
-A pull request must satisfy following for it to be merged:
+A pull request must satisfy the following for it to be merged:
 
 * A pull request will require at least 2 maintainer approvals.
 * Maintainers must perform a review to ensure the changes adhere to guidelines laid out in this document.
