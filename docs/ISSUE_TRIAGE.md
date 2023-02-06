@@ -10,18 +10,18 @@ You may obtain a copy of the License at
 
 # Triage issues
 
-The main goal of issue triage is to categorize all incoming issues and make sure each issue has all basic information needed for anyone else to understand and be able to start working on it.
+The main goals of an issue triage are to categorize open issues based on priority and to ensure that these issues contain adequate information for contributors to work on them.
 
 > **Note:** This information is for project Maintainers, Owners, and Admins. If you are a Contributor, then you will not be able to perform most of the tasks in this topic.
 
 The core maintainers of this project are responsible for categorizing all incoming issues and delegating any critical or important issue to other maintainers. Triage provides an important way to contribute to an open source project.
 
-Triage helps ensure issues resolve quickly by:
+A triage helps resolve issues quickly by :
 
-- Ensuring the issue's intent and purpose is conveyed precisely. This is necessary because it can be difficult for an issue to explain how an end user experiences a problem and what actions they took.
+- Ensuring the intent of an issue is clear. The issue should clearly describe the problem the end user is experiencing as well as the steps to reproduce the problem.
 - Giving a contributor the information they need before they commit to resolving an issue.
 - Lowering the issue count by preventing duplicate issues.
-- Streamlining the development process by preventing duplicate discussions.
+- Streamlining the development process by identifying and closing duplicate issues.
 
 If you don't have the knowledge or time to code, consider helping with triage. The community will thank you for saving them time by spending some of yours.
 
@@ -31,7 +31,7 @@ The easiest way to find issues that haven't been triaged is to search for issues
 
 ## 2. Ensure the issue contains basic information
 
-Make sure that the issue's author provided the standard issue information. This project utilizes GitHub issue templates to guide contributors to provide standard information that must be included for each type of template or type of issue.
+When creating a new issue, the author must provide all of the information required by the project's GitHub issue template
 
 ### Standard issue information that must be included
 
@@ -62,8 +62,8 @@ In general, if the issue description and title is perceived as a question no mor
 
 To make it easier for everyone to understand and find issues they're searching for it's suggested as a general rule of thumbs to:
 
-- Make sure that issue titles are named to explain the subject of the issue, has a correct spelling and doesn't include irrelevant information and/or sensitive information.
-- Make sure that issue descriptions doesn't include irrelevant information.
+- Make sure that issue titles are named to explain the subject of the issue, have a correct spelling and don't include irrelevant information and/or sensitive information.
+- Make sure that issue descriptions don't include irrelevant information.
 - Make sure that issues do not contain sensitive information.
 - Make sure that issues have all relevant fields filled in.
 - Do your best effort to change title and description or request suggested changes by adding a comment.
@@ -120,9 +120,9 @@ If it's not perfectly clear that it's an actual bug, quickly try to reproduce it
 ## 4. Prioritization of issues
 In general bugs and feature request issues should be labeled with a priority.
 
-This is the most difficult thing with triaging issues since it requires a lot of knowledge, context and experience before being able to think of and start feel comfortable adding a certain priority label.
+This is the most difficult thing with triaging issues since it requires a lot of knowledge, context and experience before being able to think of and start feeling comfortable adding a certain priority label.
 
-The key here is asking for help and discuss issues to understand how more experienced project members think and reason. By doing that you learn more and eventually be more and more comfortable with prioritizing issues.
+In order to gain comfort with prioritizing issues, consulting with experienced project members on issues is highly encouraged. By doing that you learn more and eventually be more and more comfortable with prioritizing issues.
 
 In case there is an uncertainty around the prioritization of an issue, please ask the maintainers for help.
 
