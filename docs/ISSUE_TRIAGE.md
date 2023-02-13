@@ -39,7 +39,7 @@ The following section describes the various issue templates and the expected con
 
 #### Bug reports
 
-Should explain what happened, what was expected and how to reproduce it together with any additional information that may help giving a complete picture of what happened such as screenshots, output and any environment related information that's applicable and/or maybe related to the reported problem:
+A bug report should contain explanation of what the problem is, what the expected outcome is, and how to reproduce the problem. Additionally, any other supporting information such as screenshots, console logs, and environment details should be included in the bug report. 
 
  - Product Name/Version
  - Component/Module Name
@@ -60,7 +60,7 @@ In general, if the issue description and title is perceived as a question no mor
 
 ### Good practices
 
-To make it easier for everyone to understand and find issues they're searching for it's suggested as a general rule of thumbs to:
+To make issue handling easier for everyone, it is suggested to:
 
 - Make sure that issue titles are named to explain the subject of the issue, have a correct spelling and don't include irrelevant information and/or sensitive information.
 - Make sure that issue descriptions don't include irrelevant information.
@@ -78,13 +78,13 @@ If the author provides the standard information but you are still unable to tria
 
 If the author does not respond to the requested information within the timespan of a week, close the issue with a kind note stating that the author can request for the issue to be reopened when the necessary information is provided.
 
-If you receive a notification with additional information provided but you are not anymore on issue triage and you feel you do not have time to handle it, you should delegate it to the current person on issue triage.
+If you receive a notification that additional information was provided but you are no longer working on issue triage, then you should delegate the issue to the current person working on issue triage.
 
 ## 3. Categorizing an issue
 
 ### Duplicate issues
 
-Make sure it's not a duplicate by searching existing issues using related terms from the issue title and description. If you think you know there is an existing issue, but can't find it, please reach out to one of the maintainers and ask for help. If you identify that the issue is a duplicate of an existing issue:
+Make sure it's not a duplicate by searching existing issues using related terms from the issue title and description. If you think the issue may be a potential duplicate and can't find the original existing issue, then please reach out to one of the maintainers and ask for help. If you identify that the issue is a duplicate of an existing issue:
 
 1. Add a comment `duplicate of #<issue number>`
 2. Add the `triage/duplicate` label
@@ -96,7 +96,7 @@ If it's not perfectly clear that it's an actual bug, quickly try to reproduce it
 **It's a bug/it can be reproduced:**
 
 1. Add a comment describing detailed steps for how to reproduce it, if applicable.
-2. If you know that maintainers won't be able to put any resources into it for some time then label the issue with `help wanted` and optionally `beginner friendly` together with pointers on which code to update to fix the bug. This should signal to the community that we would appreciate any help we can get to resolve this.
+2. If maintainers aren't able to address the issue in a timely manner, then label the issue with `help wanted` and an optional `beginner friendly`. Also, include pointers to the problematic source code. Doing this allows us to solicit help from the community to get the issue resolved.
 3. Move on to [prioritizing the issue](#4-prioritization-of-issues).
 
 **It can't be reproduced:**
