@@ -62,11 +62,11 @@ In general, if the issue description and title is perceived as a question no mor
 
 To make issue handling easier for everyone, it is suggested to:
 
-- Make sure that issue titles are named to explain the subject of the issue, have a correct spelling and don't include irrelevant information and/or sensitive information.
+- Make sure that issue titles are named to explain the subject of the issue, have correct spelling, and don't include irrelevant information and/or sensitive information.
 - Make sure that issue descriptions don't include irrelevant information.
 - Make sure that issues do not contain sensitive information.
 - Make sure that issues have all relevant fields filled in.
-- Do your best effort to change title and description or request suggested changes by adding a comment.
+-  If an issue is unclear, then try to edit the title and description for more clarity or leave a comment requesting that edits to the issue be made.
 
 > **Note:** Above rules are applicable to both new and existing issues.
 
@@ -74,7 +74,7 @@ To make issue handling easier for everyone, it is suggested to:
 
 Depending on the issue, you might not feel all this information is needed. Use your best judgement. If you cannot triage an issue using what its author provided, explain kindly to the author that they must provide the above information to clarify the problem. Label issue with `triage/needs-information`.
 
-If the author provides the standard information but you are still unable to triage the issue, request additional information. Do this kindly and politely because you are asking for more of the author's time.  Label issue with `triage/needs-information`.
+If the author provides the standard information but you are still unable to triage the issue, then request additional information. Do this kindly and politely because you are asking for more of the author's time. Label issue with `triage/needs-information`. `triage/needs-information`.
 
 If the author does not respond to the requested information within the timespan of a week, close the issue with a kind note stating that the author can request for the issue to be reopened when the necessary information is provided.
 
@@ -101,7 +101,7 @@ If it's not perfectly clear that it's an actual bug, quickly try to reproduce it
 
 **It can't be reproduced:**
 
-1. Either [ask for more information](#2-ensure-the-issue-contains-basic-information) needed to investigate it more thoroughly.  Provide details in a comment.
+1. Either request that [more information](#2-ensure-the-issue-contains-basic-information) is needed to investigate the issue more thoroughly. Provide details in a comment.
 2. Either [delegate further investigations](#investigation-of-issues) to someone else.  Provide details in a comment.
 
 **It works as intended/by design:**
@@ -118,9 +118,9 @@ If it's not perfectly clear that it's an actual bug, quickly try to reproduce it
 2. Otherwise, move on to [prioritizing the issue](#4-prioritization-of-issues).  Assign the appropriate priority label to the issue, add the appropriate comments to the issue, and remove the `needs-triage` label.
 
 ## 4. Prioritization of issues
-In general bugs and feature request issues should be labeled with a priority.
+In general, bugs and feature request issues should be labeled with a priority.
 
-This is the most difficult thing with triaging issues since it requires a lot of knowledge, context and experience before being able to think of and start feeling comfortable adding a certain priority label.
+This can be the most difficult task when triaging issues since it requires a lot of knowledge, context, and experience before being able to start feeling comfortable adding a certain priority label.
 
 In order to gain comfort with prioritizing issues, consulting with experienced project members on issues is highly encouraged. By doing that you learn more and eventually be more and more comfortable with prioritizing issues.
 
@@ -128,22 +128,22 @@ In case there is an uncertainty around the prioritization of an issue, please as
 
 | Label                             | Description                                                                                                              |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `priority/critical`               | Highest priority. Must be actively worked on as someone's top priority right now.                                        |
+| `priority/critical`               | Highest priority. Must be actively worked on as someone's immediate top priority.                                        |
 | `priority/high`                   | Must be worked on soon, ideally in time for the next release.                                                            |
-| `priority/low`                    | Lowest priority. Possibly useful, but not yet enough interest in it.                                                     |
+| `priority/low`                    | Lowest priority. Possibly useful, but not critical to functionality.                                                     |
 
 ### Critical priority
 
-1. If an issue has been categorized and any of the following criteria apply, the issue should be labeled as critical and must be actively worked on as someone's top priority right now.
+1. If an issue has been categorized and any of the following criteria apply to it, then the issue should be labeled as critical and must be actively worked on as someone's immediate top priority.
 
    - Results in any data loss
    - Critical security or performance issues
    - Problem that makes a feature unusable
-   - Multiple users experience a severe problem affecting their business, users etc.
+   - Multiple users experience a severe problem affecting their business, users, etc.
 
 2. Label the issue `priority/critical`.
 3. Escalate the problem to the maintainers.
-4. Assign or ask a maintainer for help assigning someone to make this issue their top priority right now.
+4. Assign the issue or ask a maintainer for help assigning the issue to someone as their immediate top priority.
 5. Add the issue to the next upcoming release milestone.
 
 ### High priority
@@ -155,19 +155,19 @@ In case there is an uncertainty around the prioritization of an issue, please as
 
 ### Low priority
 
-1. If the issue is deemed possibly useful but a low priority label the issue `priority/low`.
-2. The amount of interest in the issue will determine if the priority changes to be higher.
+1. If the issue is deemed possibly useful but is a low priority, then label the issue `priority/low`.
+2. The functional impact of an issue determines how high of a priority the issue is.
 3. Consider requesting [help from the community](#5-requesting-help-from-the-community).
 
 ## 5. Requesting help from the community
 
-Depending on the issue and/or priority, it's always a good idea to consider signalling to the community that help from community is appreciated and needed in case an issue is not prioritized to be worked on by maintainers. Use your best judgement. In general, requesting help from the community means that a contribution has a good chance of getting accepted and merged.
+Due to constraints, maintainers aren't always able to resolve issues in a timely manner, especially those of lower priority. For such issues, consider requesting help from the community. Use your best judgement. In general, requesting help from the community means that a contribution has a good chance of getting accepted and merged.
 
-In many cases the issue author or community as a whole is more suitable to contribute changes since they're experts in their domain. It's also quite common that someone has tried to get something to work using the documentation without success and made an effort to get it to work and/or reached out to the community to get the missing information.
+In many cases, the issue author or the community is most suitable to contribute changes since they're experts in their domain. It's also quite common that someone has tried to get something to work using the documentation without success and made an effort to get it to work and/or reached out to the community to get the missing information.
 
-1. Kindly and politely add a comment to signal to users subscribed to updates of the issue.
-   - Explain that the issue would be nice to get resolved, but it isn't prioritized to work on by maintainers for an unforeseen future.
-   - If possible or applicable, try to help contributors getting starting by adding pointers and references to what code/files need to be changed and/or ideas of a good way to solve/implement the issue.
+1. Kindly and politely add a comment which will notify the users subscribed to the issue of any updates.
+   - Explain that the issue would be nice to get resolved, but it isn't prioritized to be worked on by maintainers for the foreseeable future.
+   - If possible or applicable, try to help contributors get started by adding pointers to relevant source code or files as well as adding any helpful input on how to resolve the issue.
 2. Label the issue with `help wanted`.
 3. If applicable, label the issue with `beginner friendly` to denote that the issue is suitable for a beginner to work on.
 
@@ -175,11 +175,11 @@ In many cases the issue author or community as a whole is more suitable to contr
 
 When an issue has all basic information provided, but the reported problem cannot be reproduced at a first glance, the issue is labeled `triage/needs-information`. Depending on the perceived severity and/or number of upvotes, the investigation will either be delegated to another maintainer for further investigation or put on hold until someone else (maintainer or contributor) picks it up and eventually starts investigating it.
 
-Even if you don't have the time or knowledge to investigate an issue we highly recommend that you upvote the issue if you happen to have the same problem. If you have further details that may help investigating the issue please provide as much information as possible.
+Even if you don't have the time or the knowledge to investigate an issue we highly recommend that you upvote the issue if you happen to have the same problem. If you have further details that may help with investigating the issue please provide as much information as possible.
 
 ## External pull requests
 
-Part of issue triage should also be triaging of external PRs. Main goal should be to make sure PRs from external contributors have an owner/reviewer and are not forgotten.
+Part of issue triage should also be triaging of external PRs. The main goal should be to make sure PRs from external contributors have an owner/reviewer and are not forgotten.
 
 1. Check new external PRs which do not have a reviewer.
 1. Check if there is a link to an existing issue.
