@@ -20,7 +20,6 @@ A triage helps resolve issues quickly by :
 
 - Ensuring the intent of an issue is clear. The issue should clearly describe the problem the end user is experiencing as well as the steps to reproduce the problem.
 - Giving a contributor the information they need before they commit to resolving an issue.
-- Lowering the issue count by preventing duplicate issues.
 - Streamlining the development process by identifying and closing duplicate issues.
 
 If you don't have the knowledge or time to code, consider helping with triage. The community will thank you for saving them time by spending some of yours.
@@ -56,7 +55,7 @@ Should explain what feature that the author wants to be added and why that is ne
 
 #### Ask a Question requests
 
-In general, if the issue description and title is perceived as a question no more information is needed.
+In general, if the issue description and title are perceived as questions no more information is needed.
 
 ### Good practices
 
@@ -102,6 +101,7 @@ If it's not perfectly clear that it's an actual bug, quickly try to reproduce it
 **It can't be reproduced:**
 
 1. Either request that [more information](#2-ensure-the-issue-contains-basic-information) is needed to investigate the issue more thoroughly. Provide details in a comment.
+or
 2. Either [delegate further investigations](#investigation-of-issues) to someone else.  Provide details in a comment.
 
 **It works as intended/by design:**
@@ -122,7 +122,7 @@ In general, bugs and feature request issues should be labeled with a priority.
 
 This can be the most difficult task when triaging issues since it requires a lot of knowledge, context, and experience before being able to start feeling comfortable adding a certain priority label.
 
-In order to gain comfort with prioritizing issues, consulting with experienced project members on issues is highly encouraged. By doing that you learn more and eventually be more and more comfortable with prioritizing issues.
+In order to gain comfort with prioritizing issues, consulting with experienced project members on issues is highly encouraged.
 
 In case there is an uncertainty around the prioritization of an issue, please ask the maintainers for help.
 
@@ -163,7 +163,7 @@ In case there is an uncertainty around the prioritization of an issue, please as
 
 Due to constraints, maintainers aren't always able to resolve issues in a timely manner, especially those of lower priority. For such issues, consider requesting help from the community. Use your best judgement. In general, requesting help from the community means that a contribution has a good chance of getting accepted and merged.
 
-In many cases, the issue author or the community is most suitable to contribute changes since they're experts in their domain. It's also quite common that someone has tried to get something to work using the documentation without success and made an effort to get it to work and/or reached out to the community to get the missing information.
+In many cases, the issue author or the community is most suitable to contribute changes since they're experts in their domain. Also, it's very common for someone to seek help from the community on a problem.
 
 1. Kindly and politely add a comment which will notify the users subscribed to the issue of any updates.
    - Explain that the issue would be nice to get resolved, but it isn't prioritized to be worked on by maintainers for the foreseeable future.
@@ -173,7 +173,8 @@ In many cases, the issue author or the community is most suitable to contribute 
 
 ## Investigation of issues
 
-When an issue has all basic information provided, but the reported problem cannot be reproduced at a first glance, the issue is labeled `triage/needs-information`. Depending on the perceived severity and/or number of upvotes, the investigation will either be delegated to another maintainer for further investigation or put on hold until someone else (maintainer or contributor) picks it up and eventually starts investigating it.
+When an issue has all basic information provided, but the reported problem cannot be reproduced at a first glance, label the issue `triage/needs-information` and post a comment explaining why this label is being applied. Depending on the perceived severity and/or number of upvotes, the investigation will either be delegated to another maintainer for further investigation or put on hold until someone else (maintainer or contributor) picks it up and eventually starts investigating it.
+
 
 Even if you don't have the time or the knowledge to investigate an issue we highly recommend that you upvote the issue if you happen to have the same problem. If you have further details that may help with investigating the issue please provide as much information as possible.
 
@@ -184,7 +185,7 @@ Part of issue triage should also be triaging of external PRs. The main goal shou
 1. Check new external PRs which do not have a reviewer.
 1. Check if there is a link to an existing issue.
 1. If not and you know which issue it is solving, add the link yourself, otherwise ask the author to link the issue or create one.
-1. Assign a reviewer based on who was handling the linked issue or what code or feature does the PR touches (look at who was the last to make changes there if all else fails).
+1. Assign a reviewer based on who was handling the linked issue or what code or feature the PR touches (look at who was the last to make changes there if all else fails).
 
 ## GitHub issue management workflow
 
