@@ -198,4 +198,4 @@ This workflow starts off with a GitHub issue of type bug being created.
 1. Collaborator or maintainer creates a GitHub bug using the appropriate GitHub issue template
 2. By default a bug will be created with the `type/bug` and `needs-triage` labels
 
-
+![](https://github.com/KVSKOrg/dellemcansible/blob/main/box_test.png)
