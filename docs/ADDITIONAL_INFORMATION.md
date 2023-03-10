@@ -10,6 +10,6 @@ Additional Information
 ## Deprecation
 * <Product> deprecation cycle is aligned with [Ansible](https://docs.ansible.com/ansible/latest/dev_guide/module_lifecycle.html).
 
-<Any other Aditional information, 
+<Any other additional information, 
 E.g. 
 Enabling/Ignoring SSL certificate validation>
