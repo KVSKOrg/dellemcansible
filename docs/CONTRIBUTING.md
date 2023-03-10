@@ -100,7 +100,7 @@ Read more about the ways you can [Triage issues](ISSUE_TRIAGE.md).
 
 ## Testing
 
-See [here](https://github.com/ansible-collections/dellemc.enterprise_sonic/tree/collections/ /README.md) for further information on testing.
+See [here](https://github.com/ansible-collections/dellemc.enterprise_sonic/tree/collections/README.md) for further information on testing.
 
 ## Debugging
 To debug <product> using IDE, see [here](https://github.com/ansible-collections/dellemc.enterprise_sonic/tree/collections/docs/debug.md)
