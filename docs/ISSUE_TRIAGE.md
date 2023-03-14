@@ -110,8 +110,6 @@ or
 2. Label the issue `triage/works-as-intended`.
 3. Remove the `needs-triage` label.
 
-**It does not work as intended/by design:**
-
 ### Feature requests
 
 1. If the feature request does not align with the product vision, add a comment indicating so, remove the `needs-triage` label and close the issue
