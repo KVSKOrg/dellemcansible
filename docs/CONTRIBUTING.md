@@ -23,7 +23,7 @@ Become one of the contributors to this project! We strive to build a welcoming a
 * [Signing your commits](#Signing-your-commits)
 * [Pull requests](#Pull-requests)
 * [Code reviews](#Code-reviews)
-* [TODOs in the code](#TODOs-in-the-code)
+* [Code Style](#Code Style)
 
 ## Become a contributor
 
@@ -92,7 +92,7 @@ Triage helps ensure that issues resolve quickly by:
 * Ensuring the issue's intent and purpose is conveyed precisely. This is necessary because it can be difficult for an issue to explain how an end user experiences a problem and what actions they took.
 * Giving a contributor the information they need before they commit to resolving an issue.
 * Lowering the issue count by preventing duplicate issues.
-* Streamlining the development process by identifying and closing duplicate issues.
+
 
 If you don't have the knowledge or time to code, consider helping with _issue triage_. The Dell dellemc.enterprise_sonic community will thank you for saving them time by spending some of yours.
 
@@ -117,7 +117,7 @@ When you're ready to contribute, it's time to create a pull request.
 
 ## Branching
 
-* [Branching Strategy](TBD) 
+* [Branching Strategy](BRANCHING.md)
 
 ## Signing your commits
 
@@ -172,11 +172,19 @@ Make sure that the title for your pull request uses the same format as the subje
 
 ### Quality Gates for pull requests
 
-GitHub Actions are used to enforce quality gates when a pull request is created or when any commit is made to the pull request. These GitHub Actions enforce our minimum code quality requirement for any code that gets checked into the code repository. If any of the quality gates fail, it is expected that the contributor will look into the check log, understand the problem and resolve the issue. If help is needed, please feel free to reach out to the maintainers of the project for support.
+GitHub Actions are used to enforce quality gates when a pull request is created or when any commit is made to the pull request. These GitHub Actions enforce our minimum code quality requirement for any code that gets checked into the code repository. If any of the quality gates fail, it is expected that the contributor will look into the check log, understand the problem and resolve the issue. If help is needed, please feel free to reach out to the maintainers of the project for [support](https://github.com/ansible-collections/dellemc.enterprise_sonic/blob/main/docs/SUPPORT.md).
 
 #### Code build/test/coverage
 
-[GitHub action](https://github.com/ansible-collections/dellemc.enterprise_sonic/actions) that runs unit tests automatically and checks that the code coverage of each package meets a configured threshold (currently 90%). An error is flagged if a given pull request does not meet the test coverage threshold and blocks the pull request from being merged. When it fails, it is expected that the contributor will look into the log, understand the problem and resolve the issue.  
+[GitHub action](https://github.com/ansible-collections/dellemc.enterprise_sonic/actions) that runs unit tests automatically and checks the code coverage tool, [code-coverage.yml](https://github.com/ansible-collections/dellemc.enterprise_sonic/blob/main/.github/workflows/code-coverage.yml), runs unit tests automatically and checks that the code coverage of each package meets a configured threshold (currently 90%). An error is flagged if a given pull request does not meet the test coverage threshold and blocks the pull request from being merged. When it fails, it is expected that the contributor will look into the log, understand the problem and resolve the issue.  
+
+Alternatively, users can manually run the unit test and check the coverage using 'ansible-test' command as given in the following example. 
+
+```
+ansible-test  units --color --python 3.10 --coverage -vvvv tests/unit/modules/network/sonic/test_sonic_bgp_neighbors.py
+ansible-test coverage report
+
+```
 
 ## Code Reviews
 
