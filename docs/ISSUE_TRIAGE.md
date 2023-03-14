@@ -98,8 +98,8 @@ If it's not perfectly clear that it's an actual bug, quickly try to reproduce it
 
 **It can't be reproduced:**
 
-1. Either request that [more information](#2-ensure-the-issue-contains-basic-information) is needed to investigate the issue more thoroughly. Provide details in a comment.
-or
+1. Either request that [more information](#2-ensure-the-issue-contains-basic-information) is needed to investigate the issue more thoroughly. Provide details in a comment. <br>
+or <br>
 2. [delegate further investigations](#investigation-of-issues) to someone else.  Provide details in a comment.
 
 **It works as intended/by design:**
