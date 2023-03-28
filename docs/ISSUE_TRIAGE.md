@@ -183,7 +183,7 @@ Part of issue triage should also be triaging of external PRs. The main goal shou
 1. If not and you know which issue it is solving, add the link yourself, otherwise ask the author to link the issue or create one.
 1. Assign a reviewer based on who was handling the linked issue or what code or feature the PR touches (look at who was the last to make changes there if all else fails).
 
-##GitHub issue management workflow
+## GitHub issue management workflow
 
 The following section describes the triage workflow for new GitGHub issues that get created.
 
